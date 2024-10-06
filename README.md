@@ -1,5 +1,5 @@
 # Introduction 
-Welcome to the only script for the game ball test. Beat the competition with this unmatched script!. 
+Welcome to the only script for the game ball test. Beat the competition with this unmatched script!. Please don't skid the scripts rather contact me before using this script features. 
 
 *UNBOUNDED SCRIPTS*
 
