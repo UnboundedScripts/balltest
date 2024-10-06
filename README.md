@@ -8,10 +8,11 @@ Welcome to the only script for the game ball test. Beat the competition with thi
 
 ### Script
 
-Start the script by using the code below or by copying it from [this link]()
+Start the script by using the code below OR by copying it from [this link](https://raw.githubusercontent.com/UnboundedScripts/uscriptloader/refs/heads/main/Files/MainLoad.lua)
 ```
-loadstring(game:HttpGet("", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UnboundedScripts/uscriptloader/refs/heads/main/main.lua", true))()
 ```
+
 # Supported Executors
 - Solara
 - Xeno API (JJSploit,Zorara,Xeno)
