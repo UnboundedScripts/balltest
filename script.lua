@@ -1,5 +1,5 @@
 local success, version = pcall(function()
-    return loadstring(game:HttpGet(""))()
+    return loadstring(game:HttpGet("https://dev.azure.com/unboundedscripts/38607842-9607-43bb-86df-b5e57e61d35d/_apis/git/repositories/7e2eb34b-1dda-4c99-8e76-2ee9e189c9ff/items?path=/version.lua"))()
 end)
 if success then
     print("Ball Test Script - " .. version)
@@ -135,7 +135,7 @@ MainTab:AddToggle({
 MainTab:AddButton({
 	Name = "🔃 Rejoin Current Server",
 	Callback = function(Value)
-	   loadstring(game:HttpGet(""))()
+	   loadstring(game:HttpGet("https://dev.azure.com/unboundedscripts/38607842-9607-43bb-86df-b5e57e61d35d/_apis/git/repositories/5fe415ef-edec-448d-8b0c-e1c72fd53257/items?path=/Other/Instantrejoin.lua"))()
 	end 
 })
 

@@ -27,3 +27,5 @@ local function playSoundc()
 end
 
 playSoundc()
+
+print("Playing all sound!")
