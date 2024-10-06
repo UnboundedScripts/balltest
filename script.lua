@@ -1,5 +1,5 @@
 local success, version = pcall(function()
-    return loadstring(game:HttpGet("https://dev.azure.com/unboundedscripts/38607842-9607-43bb-86df-b5e57e61d35d/_apis/git/repositories/7e2eb34b-1dda-4c99-8e76-2ee9e189c9ff/items?path=/version.lua"))()
+    return loadstring(game:HttpGet("https://raw.githubusercontent.com/UnboundedScripts/balltest/refs/heads/main/version.lua"))()
 end)
 if success then
     print("Ball Test Script - " .. version)
@@ -156,7 +156,7 @@ FunTab:AddButton({
 FunTab:AddButton({
 	Name = "🎶 Play all Sounds at same time",
 	Callback = function(Value)
-	   loadstring(game:HttpGet("https://dev.azure.com/unboundedscripts/38607842-9607-43bb-86df-b5e57e61d35d/_apis/git/repositories/7e2eb34b-1dda-4c99-8e76-2ee9e189c9ff/items?path=/Additional/AllSound"))()
+	   loadstring(game:HttpGet("https://raw.githubusercontent.com/UnboundedScripts/balltest/refs/heads/main/Additional/AllSound"))()
        end
 })
 
