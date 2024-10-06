@@ -39,7 +39,7 @@ Tabs.Main:AddButton({
     Title = "🔃 Rejoin Server",
     Description = "Will rejoin you back to here",
     Callback = function()
-    loadstring(game:HttpGet(""))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/UnboundedScripts/uscriptloader/refs/heads/main/Other/Instantrejoin.lua"))()
     end
 })
 
