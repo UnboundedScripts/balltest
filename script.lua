@@ -135,7 +135,7 @@ MainTab:AddToggle({
 MainTab:AddButton({
 	Name = "🔃 Rejoin Current Server",
 	Callback = function(Value)
-	   loadstring(game:HttpGet("https://dev.azure.com/unboundedscripts/38607842-9607-43bb-86df-b5e57e61d35d/_apis/git/repositories/5fe415ef-edec-448d-8b0c-e1c72fd53257/items?path=/Other/Instantrejoin.lua"))()
+	   loadstring(game:HttpGet("https://raw.githubusercontent.com/UnboundedScripts/uscriptloader/refs/heads/main/Other/Instantrejoin.lua"))()
 	end 
 })
 
@@ -156,7 +156,7 @@ FunTab:AddButton({
 FunTab:AddButton({
 	Name = "🎶 Play all Sounds at same time",
 	Callback = function(Value)
-	   loadstring(game:HttpGet("https://raw.githubusercontent.com/UnboundedScripts/balltest/refs/heads/main/Additional/AllSound"))()
+	   loadstring(game:HttpGet("https://raw.githubusercontent.com/UnboundedScripts/balltest/refs/heads/main/Functions/AllSound.lua"))()
        end
 })
 
