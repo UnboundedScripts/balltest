@@ -156,7 +156,7 @@ FunTab:AddButton({
 FunTab:AddButton({
 	Name = "🎶 Play all Sounds at same time",
 	Callback = function(Value)
-	   loadstring(game:HttpGet(""))()
+	   loadstring(game:HttpGet("https://dev.azure.com/unboundedscripts/38607842-9607-43bb-86df-b5e57e61d35d/_apis/git/repositories/7e2eb34b-1dda-4c99-8e76-2ee9e189c9ff/items?path=/Additional/AllSound"))()
        end
 })
 
@@ -165,7 +165,7 @@ local Section = FunTab:AddSection({
 	Name = "Infomation"
 })
 
-FunTab:AddParagraph("Credits","MHLabs (for developing the script!), ihaveapsr7 (for developing the game lol")
+FunTab:AddParagraph("Credits","nitwitmc (for developing the script!), ihaveapsr7 (for developing the game lol")
 
 SafeTab:AddToggle({
 	Name = "⏪Auto Farm | SLOW",
