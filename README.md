@@ -31,6 +31,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/UnboundedScripts/uscr
 ![Main](https://github.com/user-attachments/assets/14e830ec-61db-4d42-841c-2c3969cf460d)
 
 # Updates
-[Update History]()
+[Update History](https://github.com/UnboundedScripts/balltest/releases)
 
 
