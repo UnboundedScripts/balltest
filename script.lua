@@ -206,7 +206,6 @@ SafeTab:AddToggle({
             end)
 
             print("Kick Script is ON!🛴")
-            print("To disable please rejoin!")
         else
             if playerAddedConnection then
                 playerAddedConnection:Disconnect()
