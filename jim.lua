@@ -26,7 +26,7 @@ local Toggle = Tabs.Main:AddToggle("MyToggle",
     Callback = function(state)
 	if state then
         while true do
-        loadstring(game:HttpGet(""))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/UnboundedScripts/balltest/refs/heads/main/Functions/bosskill.lua"))()
 	    print("🔪 🔛")
         end
 	else
