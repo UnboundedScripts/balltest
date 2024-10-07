@@ -15,7 +15,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/UnboundedScripts/uscr
 
 # Supported Executors
 - Solara
-- Xeno API (JJSploit,Zorara,Xeno)
+- Xeno based (JJSploit,Zorara,Xeno)
 - All iOS and Android Executors
 
 # Features
