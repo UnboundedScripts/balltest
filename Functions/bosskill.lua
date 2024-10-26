@@ -17,7 +17,7 @@ while true do
             print("Going...")
             humanoidRootPart.CFrame = attack1Ball.CFrame
             print("Teleported to Attack1Ball")
-            wait(2)
+            wait(1)
             -- Teleport to baseplate after teleporting to Attack1Ball
             if baseplate then
                 humanoidRootPart.CFrame = baseplate.CFrame + Vector3.new(0, 5, 0)

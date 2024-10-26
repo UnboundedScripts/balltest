@@ -16,6 +16,7 @@ local Window = Fluent:CreateWindow({
 local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "" }),
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
+    Farm = Window:AddTab({Title = "Farm", Icon = "" })
 }
 
 local Toggle = Tabs.Main:AddToggle("MyToggle", 
@@ -53,3 +54,5 @@ Tabs.Main:AddButton({
     Teleport:Teleport(GameID, Players)
     end
 })
+
+

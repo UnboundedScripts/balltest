@@ -143,21 +143,15 @@ MainTab:AddButton({
 FunTab:AddButton({
 	Name = "💰 Remove Purchase Interface",
 	Callback = function(Value)
-	   local Players = game:GetService("Players")
-       local Player = Players.LocalPlayer
-       local PlayerGui = Player:WaitForChild("PlayerGui")
-	   local function DestroyGui()
-	   PlayerGui:FindFirstChild("purchaseGUI"):Destroy()
-	   end
-	   DestroyGui()
-	   end 
+		loadstring(game:HttpGet("https://github.com/UnboundedScripts/balltest/blob/main/Functions/RemovepurchaseGUI.lua"))()
+	end
 })
 
 FunTab:AddButton({
 	Name = "🎶 Play all Sounds at same time",
 	Callback = function(Value)
 	   loadstring(game:HttpGet("https://raw.githubusercontent.com/UnboundedScripts/balltest/refs/heads/main/Functions/AllSound.lua"))()
-       end
+    end
 })
 
 
@@ -168,14 +162,14 @@ local Section = FunTab:AddSection({
 FunTab:AddParagraph("Credits","nitwitmc (for developing the script!), ihaveapsr7 (for developing the game lol")
 
 SafeTab:AddToggle({
-	Name = "⏪Auto Farm | SLOW",
+	Name = "🥇 GodMode",
 	Default = false,
 	Callback = function(Value)
-		autoFarmEnabled = Value
-		if autoFarmEnabled then
+		GodMode = Value
+		if GodMode then
 			spawn(function()
-				while autoFarmEnabled do
-		
+				while GodMode do
+		        
 				end
 			end)
 		end
