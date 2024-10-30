@@ -2,7 +2,7 @@
 Welcome to the only script for the game ball test. Beat the competition with this unmatched script!. Please don't skid the scripts rather contact me before using this script features. 
 
 *UNBOUNDED SCRIPTS*
-
+# [script v2](https://github.com/UnboundedScripts/balltest_v2)
 
 [For More infomation visit here]()
 
