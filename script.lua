@@ -212,6 +212,51 @@ SafeTab:AddToggle({
 })
 
 
+local HttpService = game:GetService("HttpService")
+
+local WebhookTab = Window:MakeTab({
+	Name = "Webhook",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local webhookURL = ""
+
+WebhookTab:AddTextbox({
+	Name = "Webhook URL",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		webhookURL = Value
+		print("Webhook URL set to: " .. webhookURL)
+	end	  
+})
+
+local function sendWebhook(data)
+	if webhookURL == "" then
+		warn("Webhook URL is not set!")
+		return
+	end
+	
+	local success, response = pcall(function()
+		return HttpService:PostAsync(webhookURL, HttpService:JSONEncode(data), Enum.HttpContentType.ApplicationJson)
+	end)
+	
+	if success then
+		print("Webhook sent successfully: " .. response)
+	else
+		warn("Failed to send webhook: " .. response)
+	end
+end
+
+-- Example usage
+local exampleData = {
+	username = "Roblox Webhook",
+	content = "Hello, this is a test message!"
+}
+
+sendWebhook(exampleData)
+
 
 
 
